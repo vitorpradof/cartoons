@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --background: #141414;
+  --text: #9d9d9d;
+  --title: #2e384d;
+  --red: #e50914;
+  
+	/* --text-highlight: #b3b9ff;
+  --green: #4cd62b;
+  --blue: #5965e0;
+  --blue-dark: #4953b8;
+  --blue-twitter: #2aa9e0; */
+}
+
+body {
+	background-color: var(--background);
+	width: 100%;
+	height: 100vh;
+}
+
+body {
+	background: var(--background);
+	color: var(--text);
+}
+
+button {
+	cursor: pointer;
+}
+
+.modal-content  {
+	background-color: var(--background) !important;
+}
+
+.modal-header, .modal-body, .modal-footer {
+	border: 0 none;
+} 

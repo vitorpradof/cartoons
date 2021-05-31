@@ -1,0 +1,32 @@
+#moreInfo .f {
+	display: flex;
+	flex-direction: row;
+}
+
+#moreInfo .f-c {
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+}
+
+#moreInfo .comicImg {
+	height: 250px;
+	width: auto;
+	margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+	#moreInfo .comicImg {
+		height: auto;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	#moreInfo .f {
+		flex-direction: column;
+	}
+
+	#moreInfo .f-c {
+		margin-left: 0px;
+	}
+}

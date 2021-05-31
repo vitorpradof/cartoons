@@ -1,0 +1,19 @@
+#sectionMenu .form-control, #sectionMenu .form-control:focus {
+	outline: none !important;
+	border-color: white;
+	box-shadow: 0 0 0 0;
+	width: 70%;
+	border-radius: 2px;
+}
+
+#sectionMenu form button, #sectionMenu form button:focus {
+	background-color: var(--red);
+	color: var(--white);
+	outline: none !important;
+	box-shadow: 0 0 0 0;
+	border-color: transparent;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
